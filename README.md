@@ -39,4 +39,6 @@ Es aqule que representa el cliente ideal para la aplicaciòn, es decir, la perso
 
 Se empleo la herramienta https://www.hubspot.es/make-my-persona para el desarrollo de esta plantilla.
 
-![Buyer de persona](./images/buyer1.jpg)
+![Buyer de persona 1](./images/buyer1.jpg)
+
+![Buyer de persona 2](./images/buyer2.jpg)
