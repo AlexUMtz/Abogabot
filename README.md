@@ -38,3 +38,5 @@ A continuacion se presenta la propuesta de **diagrama de flujo** para la aplicac
 Es aqule que representa el cliente ideal para la aplicaciòn, es decir, la persona que la comprarà.
 
 Se empleo la herramienta https://www.hubspot.es/make-my-persona para el desarrollo de esta plantilla.
+
+![Buyer de persona](./images/buyer1.jpg)
