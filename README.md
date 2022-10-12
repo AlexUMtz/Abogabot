@@ -49,4 +49,4 @@ Se define como los posibles compradores de la aplicación
 
 Se empleo la herramienta https://miro.com/es/plantillas/publico-objetivo/ para esta plantilla
 
-![Publico objetivo](./images/Target Audience.jpg)
+![Publico objetivo](./images/publicoObjetivo.jpg)
