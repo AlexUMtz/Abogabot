@@ -50,3 +50,9 @@ Se define como los posibles compradores de la aplicación
 Se empleo la herramienta https://miro.com/es/plantillas/publico-objetivo/ para esta plantilla
 
 ![Publico objetivo](./images/publicoObjetivo.jpg)
+
+## 4. Wireframe UX
+
+A continuación se presenta la experiencia del usuario en la aplicación, al momento de su interacción.
+
+Se empleó la herramienta https://miro.com/es/
