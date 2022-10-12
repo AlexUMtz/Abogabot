@@ -29,3 +29,11 @@ El software requerirà de 2 tipos de roles princpales: **Administrador y cliente
 
 1. La aplicaciòn debe ser responsive, para que se pueda adaptar facilmente a diferentes tipos de dispostivos.
 2. La aplicaciòn debe contener los colores azul marino y blanco.
+
+A continuacion se presenta la propuesta de **diagrama de flujo** para la aplicaciòn:
+
+
+## 2. Buyer de Persona
+
+Es aqule que representa el cliente ideal para la aplicaciòn, es decir, la persona que la comprarà.
+Se empleo la herramienta https://www.hubspot.es/make-my-persona para el desarrollo de esta plantilla.
