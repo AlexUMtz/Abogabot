@@ -1,12 +1,12 @@
 # Abogabot
 
-## Descripciòn de la practica
+## Descripción de la practica
 
-Un despacho de abogados requeriere el desarrollo de un software que permita la automatizaciòn del proceso de demandas de los clientes, proporcionando un formulario para que los usuarios ingresen sus datos y el administrador lleve un seguimiento del caso 
+Un despacho de abogados requeriere el desarrollo de un software que permita la automatización del proceso de demandas de los clientes, proporcionando un formulario para que los usuarios ingresen sus datos y el administrador lleve un seguimiento del caso 
 
-## 1. Anàlisis de requerimientos
+## 1. Análisis de requerimientos
 
-El software requerirà de 2 tipos de roles princpales: **Administrador y cliente** por lo que se identifican los requerimientos de cada uno de estos a continuaciòn:
+El software requerirá de 2 tipos de roles princpales: **Administrador y cliente** por lo que se identifican los requerimientos de cada uno de estos a continuación:
 
 ### Requerimientos funcionales
 
@@ -27,18 +27,26 @@ El software requerirà de 2 tipos de roles princpales: **Administrador y cliente
 
 ### Requerimienos no Funcionales
 
-1. La aplicaciòn debe ser responsive, para que se pueda adaptar facilmente a diferentes tipos de dispostivos.
-2. La aplicaciòn debe contener los colores azul marino y blanco.
+1. La aplicación debe ser responsive, para que se pueda adaptar facilmente a diferentes tipos de dispostivos.
+2. La aplicación debe contener los colores azul marino y blanco.
 
-A continuacion se presenta la propuesta de **diagrama de flujo** para la aplicaciòn:
+A continuacion se presenta la propuesta de **diagrama de flujo** para la aplicación:
 
 
 ## 2. Buyer de Persona
 
-Es aqule que representa el cliente ideal para la aplicaciòn, es decir, la persona que la comprarà.
+Es aquel que representa el cliente ideal para la aplicación.
 
 Se empleo la herramienta https://www.hubspot.es/make-my-persona para el desarrollo de esta plantilla.
 
 ![Buyer de persona 1](./images/buyer1.jpg)
 
 ![Buyer de persona 2](./images/buyer2.jpg)
+
+## 3. Público objetivo
+
+Se define como los posibles compradores de la aplicación
+
+Se empleo la herramienta https://miro.com/es/plantillas/publico-objetivo/ para esta plantilla
+
+![Publico objetivo](./images/Target Audience.jpg)
