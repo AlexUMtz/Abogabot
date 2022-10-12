@@ -8,9 +8,9 @@ Un despacho de abogados requeriere el desarrollo de un software que permita la a
 
 El software requerirà de 2 tipos de roles princpales: **Administrador y cliente** por lo que se identifican los requerimientos de cada uno de estos a continuaciòn:
 
-###Requerimientos funcionales
+### Requerimientos funcionales
 
-### Administrador
+### *Administrador
 
 1. Requiere  **recibir** notificaciones de las demanas realizadas por los clientes.
 2. Requiere **obtener** un documento en formato WORD(.docx) que contengan los datos ingresados por el cliente.
@@ -18,7 +18,7 @@ El software requerirà de 2 tipos de roles princpales: **Administrador y cliente
 4. Requiere **actualizar** el proceso de demanda segun el seguimiento realizado.
 5. Requiere **comentar** acerca de las actualizaciones del proceso de demanda.
 
-### Cliente
+### *Cliente
 
 1. Requiere un formulario que permita ingresar sus datos con respecto al proceso de demanda.
 2. Requiere poder crear una cuenta de usuario con la cual pueda dar seguimiento a sus solicitudes.
