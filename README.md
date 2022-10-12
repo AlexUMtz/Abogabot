@@ -6,7 +6,9 @@ Un despacho de abogados requeriere el desarrollo de un software que permita la a
 
 ## 1. Anàlisis de requerimientos
 
-El software requerira de 2 tipos de roles princpales: **Administrador y cliente** por lo que se identifican los requerimientos de cada uno de estos a continuaciòn:
+El software requerirà de 2 tipos de roles princpales: **Administrador y cliente** por lo que se identifican los requerimientos de cada uno de estos a continuaciòn:
+
+###Requerimientos funcionales
 
 ### Administrador
 
@@ -18,4 +20,12 @@ El software requerira de 2 tipos de roles princpales: **Administrador y cliente*
 
 ### Cliente
 
-1. 
+1. Requiere un formulario que permita ingresar sus datos con respecto al proceso de demanda.
+2. Requiere poder crear una cuenta de usuario con la cual pueda dar seguimiento a sus solicitudes.
+3. Requiere un formulario para realizar su proceso de pago.
+4. Requiere recibir notificaciones sobre las actualizaciones de su proceso de demanda.
+
+### Requerimienos no Funcionales
+
+1. La aplicaciòn debe ser responsive, para que se pueda adaptar facilmente a diferentes tipos de dispostivos.
+2. La aplicaciòn debe contener los colores azul marino y blanco.
