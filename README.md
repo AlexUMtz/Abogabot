@@ -56,3 +56,5 @@ Se empleo la herramienta https://miro.com/es/plantillas/publico-objetivo/ para e
 A continuación se presenta la experiencia del usuario en la aplicación, al momento de su interacción.
 
 Se empleó la herramienta https://miro.com/es/
+
+![Diseño UX](./images/Abogabot_UX.jpg)
