@@ -1,5 +1,5 @@
 
-### Requerimientos funcionales
+# Requerimientos funcionales
 
 * ### Administrador
 
