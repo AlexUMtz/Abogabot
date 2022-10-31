@@ -361,5 +361,13 @@ font-size: 1.2rem;
 .footer{
   display: flex;
   background-color: var(--blue-1);
-  height: 10rem;
+  height: 7rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer span{
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #e8e8e8;
 }
