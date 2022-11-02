@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Link CSS -->
+      <link rel="stylesheet" href="./assets/style.css">
+
+      <!-- Font Awesom CDN Link -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      />
+    <title>Pastelero</title>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./assets/img/gallegos.png" alt="Pasteleria Gallegos">
+        </a>
+        <nav class="navbar">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="./index.html">Home</a></li>
+              <li class="nav__item"><a href="#inventario">Inventario</a></li>
+              <li class="nav__item"><a href="#pedidos">Pedidos</a></li>
+              <li class="nav__item" id="pastelero"><a href="./pastelero.html">Pastelero</a></li>
+            </ul>
+          </nav>
+    </header> 
+
+    <!-- INVENTARIO SECTION -->
+    <section class="tablas" id="inventario">
+        
+        <h2 class="heading">Inventario</h2>
+
+        <div class="tablas__container">
+            <table class="tabla tabla-sabor">
+                <tr>
+                    <th class="inventario-head">Sabores</th>
+                    <th class="inventario-head">Cantidad</th>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Canelitas</td>
+                    <td class="inventario-data">12</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Chocolate</td>
+                    <td class="inventario-data">20</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Conejito</td>
+                    <td class="inventario-data">9</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">M&M's</td>
+                    <td class="inventario-data">18</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Cookies & Cream</td>
+                    <td class="inventario-data">14</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Fresa</td>
+                    <td class="inventario-data">22</td>
+                </tr>
+            </table>
+        
+        
+            <table class="tabla tabla-adornos">
+                <tr>
+                    <th class="inventario-head">Adornos</th>
+                    <th class="inventario-head">Cantidad</th>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Vela 1</td>
+                    <td class="inventario-data">12</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Vela 2</td>
+                    <td class="inventario-data">20</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Vela 3</td>
+                    <td class="inventario-data">9</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Bengala 1</td>
+                    <td class="inventario-data">18</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Bengala 2</td>
+                    <td class="inventario-data">14</td>
+                </tr>
+                <tr>
+                    <td class="inventario-data">Bengala 3</td>
+                    <td class="inventario-data">22</td>
+                </tr>
+            </table>
+        </div>
+        
+    </section>
+
+    <!-- PEDIDOS SECTION -->
+    <section class="pedidos" id="pedidos">
+
+        <h2 class="heading">Pedidos</h2>
+
+        <div class="tabla__container">
+            <div class="tabla-ped">
+                <table class="tabla tabla-pedidos">
+                    <tr>
+                        <th class="pedidos-head">Nombre</th>
+                        <th class="pedidos-head">Teléfono</th>
+                        <th class="pedidos-head">Correo</th>
+                        <th class="pedidos-head">Descripción pastel</th>
+                        <th class="pedidos-head">Sabor</th>
+                        <th class="pedidos-head">Adorno</th>
+                        <th class="pedidos-head">Total</th>
+                    </tr>
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="pedidos-data">Alejandro Martinez</td>
+                        <td class="pedidos-data">55 1122 3344</td>
+                        <td class="pedidos-data">alexmtz@mail.mx</td>
+                        <td class="pedidos-data">El pastel va a ser para una fiesta infantil</td>
+                        <td class="pedidos-data">Pastel de Canelitas</td>
+                        <td class="pedidos-data">Bengala 1</td>
+                        <td class="pedidos-data">$480</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

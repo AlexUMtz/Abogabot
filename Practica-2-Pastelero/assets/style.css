@@ -56,7 +56,7 @@
 
 .logo img{
   /* display: flex; */
-  height: 6rem;
+  height: 5.5rem;
   /* border: 1px solid purple; */
 }
 
@@ -101,6 +101,15 @@
 
 .iconBar{
   display: none;
+}
+
+#pastelero{
+  background-color: var(--blue-1);
+  color: #e8e8e8;
+}
+
+#pastelero a{
+  color: #e8e8e8;
 }
 
 
@@ -370,4 +379,93 @@ font-size: 1.2rem;
   margin-bottom: 1rem;
   font-size: 1.8rem;
   color: #e8e8e8;
+}
+
+
+
+/* ==== Tabla sabores ==== */
+
+.tablas{
+  margin-top: 7rem;
+  /* border: 1px solid black; */
+}
+
+.tablas__container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  gap: 3rem;
+  background-color: #fff;
+  padding: 3rem;
+  margin: 0 3rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+}
+
+.tabla__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0 3rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+}
+
+.tabla{
+  background-color: #e8e8e8;
+  border-collapse: collapse;
+}
+
+.inventario-head,
+.inventario-data,
+.pedidos-head,
+.pedidos-data{
+  padding: 1rem;
+  border: 2px solid var(--blue-1);
+}
+
+.inventario-head{
+  font-size: 2rem;
+  background-color: var(--blue-1);
+  color: #e8e8e8;
+}
+
+.inventario-data{
+  font-size: 1.4rem;
+  background-color: #fefefe;
+}
+
+.pedidos{
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.tabla-ped{
+  width: 100%;
+  margin: 2rem;
+  padding: 0;
+  overflow-y: scroll;
+  height: 25rem;
+  border: 3px solid var(--blue-1);
+}
+
+.tabla-pedidos{
+  width: 100%;
+}
+
+.pedidos-head{
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  background-color: var(--blue-1);
+  color: #e8e8e8;
+}
+
+.pedidos-data{
+  font-size: 1.2rem;
+  background-color: #fefefe;
 }
